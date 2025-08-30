@@ -1,3 +1,14 @@
-
-import { redirect } from 'next/navigation'
-export default function Page() { redirect('/es') }
+export default function Page() {
+  return (
+    <main className="min-h-screen flex items-center justify-center p-8 text-center">
+      <div>
+        <h1 className="text-3xl font-semibold">Queso y Vino</h1>
+        <p className="text-gray-600 mt-2">Elige tu idioma</p>
+        <div className="mt-6 flex gap-3 justify-center">
+          <a className="btn btn-primary" href="/es">Español</a>
+          <a className="btn btn-outline" href="/fr">Français</a>
+        </div>
+      </div>
+    </main>
+  );
+}

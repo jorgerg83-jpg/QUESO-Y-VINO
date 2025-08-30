@@ -1,18 +1,28 @@
-
 export default function Contacto({ locale='es' }) {
   const t = {
-    es: { title: 'Contacto', desc: 'Hablemos de tu viaje ideal. Respondemos en menos de 24h.' },
-    fr: { title: 'Contact', desc: 'Parlons de votre voyage idéal. Réponse sous 24h.' }
+    es: {
+      title: '¿Listo para empezar?',
+      subtitle: 'Cuéntanos tu idea y diseñamos tu viaje a medida.',
+      whatsapp: 'Hablar por WhatsApp',
+      note: 'Atención personalizada. Los ejemplos son solo inspiración.'
+    },
+    fr: {
+      title: 'Prêt à commencer ?',
+      subtitle: 'Dites-nous votre idée et nous concevons votre voyage sur mesure.',
+      whatsapp: 'Parler sur WhatsApp',
+      note: 'Service personnalisé. Les exemples sont une inspiration.'
+    }
   }[locale];
   return (
-    <section id={locale==='es'?'contacto':'contact'} className="container-max py-14">
-      <div className="card p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-6">
-        <div>
-          <h2 className="text-2xl font-semibold">{t.title}</h2>
-          <p className="text-gray-600 mt-2">{t.desc}</p>
+    <section id={locale==='es'?'contacto':'contact'} className="container-max py-12">
+      <div className="card p-8 text-center">
+        <h2 className="section-title">{t.title}</h2>
+        <p className="lead mt-2">{t.subtitle}</p>
+        <div className="mt-6">
+          <a className="btn btn-primary" href="https://wa.me/34649505918" target="_blank">{t.whatsapp}</a>
         </div>
-        <a className="btn btn-primary" href="https://wa.me/34649505918" target="_blank">WhatsApp</a>
+        <p className="text-sm text-gray-500 mt-4">{t.note}</p>
       </div>
     </section>
-  )
+  );
 }

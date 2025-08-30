@@ -1,11 +1,12 @@
-
 export default function Footer({ locale='es' }) {
-  const t = { es: 'Queso y Vino © 2025.', fr: 'Queso y Vino © 2025.' }[locale];
   return (
-    <footer className="border-t border-gray-200 mt-16">
-      <div className="container-max py-8 text-sm text-gray-600 flex items-center justify-between">
-        <div className="flex items-center gap-2"><span>🍷🧀</span><span>Queso y Vino</span></div>
-        <p>{t}</p>
+    <footer className="border-t border-gray-200 mt-10">
+      <div className="container-max py-6 text-sm text-gray-500 flex flex-col md:flex-row items-center justify-between gap-2">
+        <div>© {new Date().getFullYear()} Queso y Vino</div>
+        <div className="flex items-center gap-4">
+          <a href="https://wa.me/34649505918" target="_blank" className="hover:text-brandWine">WhatsApp</a>
+          <a href={locale==='es'?'/es':'/fr'} className="hover:text-brandWine">{locale==='es'?'Inicio':'Accueil'}</a>
+        </div>
       </div>
     </footer>
   )

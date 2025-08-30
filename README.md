@@ -1,35 +1,12 @@
+# Queso y Vino — Web ES/FR (v2)
+Next.js 14 (App Router) + Tailwind CSS  
+Bilingüe: /es y /fr
 
-# Queso y Vino — Web (Next.js + Tailwind)
-Sitio bilingüe (ES/FR) listo para publicar en **Vercel**.
+## Cómo usar
+1) `npm i`
+2) `npm run dev` para ver en local.
+3) Sube estos archivos a tu repo de GitHub conectado a Vercel. Vercel desplegará automáticamente.
 
-## 🧰 Requisitos
-- Node.js 18+
-- Cuenta gratuita en vercel.com
-
-## 🚀 Desarrollo local
-```bash
-npm install
-npm run dev
-# abre http://localhost:3000 (redirige a /es)
-```
-
-## 🌐 Despliegue en Vercel
-1. Entra en https://vercel.com y crea un **Nuevo Proyecto**.
-2. Sube esta carpeta o conecta tu repo.
-3. Build Command: `next build` (por defecto). Output dir: `.next`.
-4. Listo: tendrás tu dominio *.vercel.app*.
-
-## 📁 Estructura
-- app/
-  - page.jsx → redirige a /es
-  - es/ (inicio ES + destinos)
-  - fr/ (inicio FR + destinos)
-- components/ (Header, Hero, Destinos, Servicios, Cursos, Contacto)
-
-## 📝 Personaliza
-- WhatsApp: `+34 649 505 918` en Header/Contacto.
-- Colores: `tailwind.config.js` (brandWine, brandCheese).
-- Textos y precios en componentes/páginas.
-git add .
-git commit -m "Actualización web Queso y Vino v2"
-git push
+## Notas
+- Las imágenes se cargan desde Unsplash (uso permitido con atribución y enlace; en la web pública añade un pie de foto o sección de créditos si lo deseas).
+- Los ejemplos listados son inspiracionales: todo viaje es 100% personalizado.
