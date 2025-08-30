@@ -30,3 +30,6 @@ npm run dev
 - WhatsApp: `+34 649 505 918` en Header/Contacto.
 - Colores: `tailwind.config.js` (brandWine, brandCheese).
 - Textos y precios en componentes/páginas.
+git add .
+git commit -m "Actualización web Queso y Vino v2"
+git push
