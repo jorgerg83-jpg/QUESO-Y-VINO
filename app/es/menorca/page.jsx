@@ -6,15 +6,15 @@ export default function Page(){
     <>
       <Header locale='es' />
       <section className='relative'>
-        <img src='/images/menorca-hero.svg' className='w-full h-[40vh] object-cover' alt='menorca' />
+        <img src='/images/menorca-hero.svg' className='w-full h-[40vh] object-cover' alt='Menorca' />
         <div className='absolute inset-0 bg-black/30' />
         <div className='container-max relative z-10 py-16 text-white'>
-          <h1 className='text-4xl font-semibold'>Queso y Vino — Calas secretas + picnic</h1>
+          <h1 className='text-4xl font-semibold'>Queso y Vino — Menorca</h1>
         </div>
       </section>
       <main className='container-max py-10 space-y-6'>
-        <section className='card overflow-hidden'><div className='grid md:grid-cols-2'><img src='/images/menorca-1.svg' className='w-full h-56 md:h-full object-cover' alt='Calas secretas + picnic' /><div className='p-6'><h2 className='text-xl font-semibold'>Calas secretas + picnic</h2><p className='text-gray-600 mt-2'>Calas vírgenes y picnic con queso de Mahón.</p><p className='mt-4 font-semibold'>Desde 150 € / día — Solo travelers −20%</p></div></div></section>
-        <p className='text-sm text-gray-500'>Precios orientativos con descuento Solo Travelers (−20%) cuando aplique.</p>
+        <section className='card overflow-hidden'><div className='grid md:grid-cols-2'><img src='/images/menorca-1.svg' className='w-full h-56 md:h-full object-cover' alt='Calas secretas + picnic Queso y Vino' /><div className='p-6'><h2 className='text-xl font-semibold'>Calas secretas + picnic Queso y Vino</h2><p className='text-gray-600 mt-2'>Calas vírgenes, barca tradicional y picnic con queso de Mahón.</p><p className='mt-4 font-semibold'>Desde 150 € / día — Solo travelers −20%</p></div></div></section>
+        <p className='text-sm text-gray-500'>Curso disponible aquí: Español para francófonos (no se ofrece curso de esquí).</p>
       </main>
       <Contacto locale='es' />
       <Footer locale='es' />
