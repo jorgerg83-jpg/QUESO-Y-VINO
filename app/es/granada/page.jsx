@@ -14,6 +14,7 @@ export default function Page(){
       </section>
       <main className='container-max py-10 space-y-6'>
         <section className='card overflow-hidden'><div className='grid md:grid-cols-2'><img src='/images/granada-1.svg' className='w-full h-56 md:h-full object-cover' alt='Alhambra íntima + cata andaluza' /><div className='p-6'><h2 className='text-xl font-semibold'>Alhambra íntima + cata andaluza</h2><p className='text-gray-600 mt-2'>Visita con guía oficial, rincones locales y cata “Queso y Vino”.</p><p className='mt-4 font-semibold'>Desde 160 € / día</p></div></div></section>
+        <div className='grid-photos'><img src='/images/granada-2.svg' className='photo' alt='extra'/><img src='/images/granada-3.svg' className='photo' alt='extra'/></div>
         <p className='text-sm text-gray-500'>Curso disponible aquí: Español para francófonos (no se ofrece curso de esquí).</p>
       </main>
       <Contacto locale='es' />

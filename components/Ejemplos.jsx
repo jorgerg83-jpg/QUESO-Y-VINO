@@ -2,14 +2,14 @@
 export default function Ejemplos({locale='es'}){
   const data = {
     es: [
-      { slug:'suiza', title:'Suiza', img:'/images/suiza-1.svg', desc:'Alpes, pueblos con encanto y catas “Queso y Vino”.' },
-      { slug:'menorca', title:'Menorca', img:'/images/menorca-1.svg', desc:'Cales secretas, gastronomía local y rutas en barco.' },
-      { slug:'granada', title:'Granada', img:'/images/granada-1.svg', desc:'Alhambra íntima, Sierra Nevada y tapeo auténtico.' }
+      { slug:'suiza', title:'Suiza', img:'/images/suiza-hero.svg', desc:'Alpes, pueblos con encanto y catas “Queso y Vino”.' },
+      { slug:'menorca', title:'Menorca', img:'/images/menorca-hero.jpg', desc:'Cales secretas, gastronomía local y rutas en barco.' },
+      { slug:'granada', title:'Granada', img:'/images/granada-hero.svg', desc:'Alhambra íntima, Sierra Nevada y tapeo auténtico.' }
     ],
     fr: [
-      { slug:'suiza', title:'Suisse', img:'/images/suiza-1.svg', desc:'Alpes, villages pittoresques et dégustations.' },
-      { slug:'menorca', title:'Minorque', img:'/images/menorca-1.svg', desc:'Criques secrètes, gastronomie locale et sorties en bateau.' },
-      { slug:'granada', title:'Grenade', img:'/images/granada-1.svg', desc:'Alhambra intime, Sierra Nevada et tapas authentiques.' }
+      { slug:'suiza', title:'Suisse', img:'/images/suiza-hero.svg', desc:'Alpes, villages pittoresques et dégustations.' },
+      { slug:'menorca', title:'Minorque', img:'/images/menorca-hero.jpg', desc:'Criques secrètes, gastronomie locale et sorties en bateau.' },
+      { slug:'granada', title:'Grenade', img:'/images/granada-hero.svg', desc:'Alhambra intime, Sierra Nevada et tapas authentiques.' }
     ]
   }[locale];
   const t = { es:{title:'Ejemplos para inspirarte (100% personalizables)', explorar:'Ver ejemplos'}, fr:{title:'Exemples pour vous inspirer (100% personnalisables)', explorar:'Voir les exemples'} }[locale];

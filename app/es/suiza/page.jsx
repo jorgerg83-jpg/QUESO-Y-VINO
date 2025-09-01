@@ -14,6 +14,7 @@ export default function Page(){
       </section>
       <main className='container-max py-10 space-y-6'>
         <section className='card overflow-hidden'><div className='grid md:grid-cols-2'><img src='/images/suiza-1.svg' className='w-full h-56 md:h-full object-cover' alt='Escapada alpina con cata Queso y Vino' /><div className='p-6'><h2 className='text-xl font-semibold'>Escapada alpina con cata Queso y Vino</h2><p className='text-gray-600 mt-2'>Alpes con guía privado, pueblos históricos y cata temática “Queso y Vino”.</p><p className='mt-4 font-semibold'>Desde 195 € / día — Solo travelers −20%</p></div></div></section>
+        <div className='grid-photos'><img src='/images/suiza-2.svg' className='photo' alt='extra'/><img src='/images/suiza-3.svg' className='photo' alt='extra'/></div>
         <p className='text-sm text-gray-500'>Cursos disponibles aquí: Francés para viajar y Curso online de esquí.</p>
       </main>
       <Contacto locale='es' />

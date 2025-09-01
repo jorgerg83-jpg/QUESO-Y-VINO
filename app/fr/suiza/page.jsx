@@ -14,6 +14,7 @@ export default function Page(){
       </section>
       <main className='container-max py-10 space-y-6'>
         <section className='card overflow-hidden'><div className='grid md:grid-cols-2'><img src='/images/suiza-1.svg' className='w-full h-56 md:h-full object-cover' alt='Escapade alpine avec dégustation' /><div className='p-6'><h2 className='text-xl font-semibold'>Escapade alpine avec dégustation</h2><p className='text-gray-600 mt-2'>Alpes avec guide privé, villages historiques et dégustation “Queso y Vino”.</p><p className='mt-4 font-semibold'>Dès 205 € / jour — Solo travelers −20%</p></div></div></section>
+        <div className='grid-photos'><img src='/images/suiza-2.svg' className='photo' alt='extra'/><img src='/images/suiza-3.svg' className='photo' alt='extra'/></div>
         <p className='text-sm text-gray-500'>Cours disponibles ici : Français voyage et Cours de ski en ligne.</p>
       </main>
       <Contacto locale='fr' />

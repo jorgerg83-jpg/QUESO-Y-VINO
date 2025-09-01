@@ -13,3 +13,5 @@ body { @apply text-gray-900 bg-white; }
 .btn-outline { @apply bg-transparent text-brandWine border-brandWine; }
 .badge { @apply inline-flex items-center px-3 py-1 rounded-full text-sm bg-brandCheese/30 text-brandWine; }
 .lead { @apply text-gray-700; }
+.grid-photos { @apply grid grid-cols-2 gap-3; }
+.photo { @apply w-full h-40 object-cover rounded-xl; }
