@@ -1,0 +1,118 @@
+/* === ESTILO GLOBAL === */
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #fafafa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* === HEADER === */
+header {
+  background-color: #fff;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #eee;
+}
+
+header img {
+  height: 50px;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  color: #6b0f1a; /* vino tinto */
+  margin: 0 15px;
+  flex: 1;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a.active,
+nav a:hover {
+  color: #6b0f1a;
+}
+
+/* === HERO === */
+.hero {
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+}
+
+/* === SECCIONES === */
+.section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section h2 {
+  color: #6b0f1a;
+  margin-bottom: 15px;
+}
+
+.section p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+/* === GALERÍA === */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  object-fit: cover;
+}
+
+/* === TARJETAS DE SERVICIOS === */
+.service-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card h3 {
+  color: #6b0f1a;
+  margin-bottom: 10px;
+}
+
+/* === FOOTER === */
+footer {
+  background: #f8f8f8;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #555;
+  border-top: 2px solid #eee;
+}
