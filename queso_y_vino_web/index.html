@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Queso y Vino — Viajes exclusivos</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<header>
+  <img src="img/logo.png" alt="Queso y Vino" class="logo" onerror="this.style.display='none'">
+  <div class="brand">Queso y Vino</div>
+
+  <nav>
+    <a href="#destinos" data-lang="es">Destinos</a>
+    <a href="#services" data-lang="es">Servicios</a>
+    <a href="#contact" data-lang="es">Contacto</a>
+
+    <a href="#destinos" data-lang="fr" style="display:none">Destinations</a>
+    <a href="#services" data-lang="fr" style="display:none">Services</a>
+    <a href="#contact" data-lang="fr" style="display:none">Contact</a>
+  </nav>
+
+  <div class="lang-toggle">
+    <button class="lang-btn" data-lang="es">🇪🇸 ES</button>
+    <button class="lang-btn" data-lang="fr">🇫🇷 FR</button>
+  </div>
+</header>
+
+<!-- HERO (rotativo simple: background cambia según destino select) -->
+<section id="hero" class="hero" style="background-image:url('img/menorca1.jpg')">
+  <div style="text-align:center">
+    <div data-lang="es"><h1 style="font-size:2.2rem">Viajes exclusivos y a medida</h1><p>Más que turismo: experiencias auténticas.</p></div>
+    <div data-lang="fr"><h1 style="font-size:2.2rem">Voyages exclusifs et sur mesure</h1><p>Plus que du tourisme : expériences authentiques.</p></div>
+  </div>
+</section>
+
+<main>
+  <section class="container" id="about">
+    <div data-lang="es">
+      <h2 class="h-title">Nuestra filosofía</h2>
+      <p>En Queso y Vino diseñamos viajes exclusivos y personalizados, alejados del turismo de masas. Adaptamos cada ruta a tus intereses: naturaleza, gastronomía, cultura y experiencias auténticas.</p>
+    </div>
+    <div data-lang="fr">
+      <h2 class="h-title">Notre philosophie</h2>
+      <p>Chez Queso y Vino, nous créons des voyages exclusifs et sur mesure, loin du tourisme de masse. Chaque itinéraire est adapté à vos intérêts : nature, gastronomie, culture et expériences authentiques.</p>
+    </div>
+  </section>
+
+  <!-- DESTINOS -->
+  <section class="container" id="destinos">
+    <div data-lang="es">
+      <h2 class="h-title">Destinos</h2>
+      <p>Ejemplos de destinos que diseñamos a medida. Los itinerarios son orientativos y sin precios: siempre personalizados.</p>
+    </div>
+    <div data-lang="fr">
+      <h2 class="h-title">Destinations</h2>
+      <p>Exemples de destinations que nous organisons sur mesure. Les itinéraires sont indicatifs et sans prix : toujours personnalisés.</p>
+    </div>
+
+    <div class="grid">
+      <!-- MENORCA -->
+      <div class="card">
+        <div data-lang="es"><h3>Menorca</h3><p>Calas vírgenes, slow travel y gastronomía mediterránea. Acceso a calas exclusivas y rutas locales.</p></div>
+        <div data-lang="fr"><h3>Minorque</h3><p>Plages sauvages, slow travel et gastronomie méditerranéenne. Accès à des criques exclusives et itinéraires locaux.</p></div>
+        <div class="gallery">
+          <img src="img/menorca1.jpg" alt="Cala Turqueta">
+          <img src="img/menorca2.jpg" alt="Barranc d'Algendar">
+        </div>
+      </div>
+
+      <!-- GRANADA -->
+      <div class="card">
+        <div data-lang="es"><h3>Granada</h3><p>Alhambra, barrio histórico y montaña. Experiencias culturales y naturaleza en Güéjar Sierra.</p></div>
+        <div data-lang="fr"><h3>Grenade</h3><p>L'Alhambra, quartier historique et montagne. Expériences culturelles et nature à Güéjar Sierra.</p></div>
+        <div class="gallery">
+          <img src="img/granada1.jpg" alt="Alhambra">
+          <img src="img/granada2.jpg" alt="Güejar Sierra">
+        </div>
+      </div>
+
+      <!-- SUIZA -->
+      <div class="card">
+        <div data-lang="es"><h3>Suiza</h3><p>Alpes, lagos y pueblos alpinos. Rutas exclusivas y experiencias de montaña.</p></div>
+        <div data-lang="fr"><h3>Suisse</h3><p>Alpes, lacs et villages alpins. Itinéraires exclusifs et expériences en montagne.</p></div>
+        <div class="gallery">
+          <img src="img/suiza1.jpg" alt="Alpes Suizos">
+          <img src="img/suiza2.jpg" alt="Lago alpino">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="container" id="services">
+    <div data-lang="es">
+      <h2 class="h-title">Servicios complementarios</h2>
+      <p>Servicios opcionales para completar tu viaje. Consultar disponibilidad.</p>
+    </div>
+    <div data-lang="fr">
+      <h2 class="h-title">Services complémentaires</h2>
+      <p>Services optionnels pour compléter votre voyage. Vérifier la disponibilité.</p>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h3 data-lang="es">Asesoría personalizada (1h)</h3>
+        <h3 data-lang="fr" style="display:none">Conseil personnalisé (1h)</h3>
+        <p data-lang="es">Sesión online para planificar tu viaje y resolver dudas.</p>
+        <p data-lang="fr" style="display:none">Session en ligne pour planifier votre voyage et répondre à vos questions.</p>
+      </div>
+
+      <div class="card">
+        <h3 data-lang="es">Encuentros para Solo Travelers</h3>
+        <h3 data-lang="fr" style="display:none">Rencontres pour Solo Travelers</h3>
+        <p data-lang="es">Reuniones grupales online para conectar con otros viajeros.</p>
+        <p data-lang="fr" style="display:none">Réunions de groupe en ligne pour rencontrer d'autres voyageurs.</p>
+      </div>
+
+      <div class="card">
+        <h3 data-lang="es">Curso básico de francés (para españoles que viajan a Suiza)</h3>
+        <h3 data-lang="fr" style="display:none">Cours de français de base (pour Espagnols voyageant en Suisse)</h3>
+        <p data-lang="es">Lecciones prácticas para comunicarte durante tu viaje a Suiza.</p>
+        <p data-lang="fr" style="display:none">Leçons pratiques pour vous exprimer lors de votre voyage en Suisse.</p>
+      </div>
+
+      <div class="card">
+        <h3 data-lang="es">Curso básico de español (para francófonos que viajan a España)</h3>
+        <h3 data-lang="fr" style="display:none">Cours d'espagnol de base (pour francophones voyageant en Espagne)</h3>
+        <p data-lang="es">Frases y vocabulario clave para viajar en España (Granada, Menorca).</p>
+        <p data-lang="fr" style="display:none">Phrases et vocabulaire essentiels pour voyager en Espagne.</p>
+      </div>
+
+      <div class="card">
+        <h3 data-lang="es">Lecciones básicas de esquí (online)</h3>
+        <h3 data-lang="fr" style="display:none">Leçons de ski de base (en ligne)</h3>
+        <p data-lang="es">Preparación teórica para aprovechar tu experiencia en la nieve.</p>
+        <p data-lang="fr" style="display:none">Préparation théorique pour profiter pleinement de votre expérience de ski.</p>
+      </div>
+
+      <div class="card">
+        <h3 data-lang="es">Introducción a la gastronomía local</h3>
+        <h3 data-lang="fr" style="display:none">Introduction à la gastronomie locale</h3>
+        <p data-lang="es">Catas y recomendaciones: queso & vino como sello distintivo.</p>
+        <p data-lang="fr" style="display:none">Dégustations et recommandations : fromage & vin comme signature.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="container" id="contact">
+    <div data-lang="es">
+      <h2 class="h-title">Contacto</h2>
+      <p>Escríbenos por WhatsApp: <strong>+34 649 505 918</strong></p>
+      <p>Ejemplo: "Quiero información para un viaje a Suiza en febrero"</p>
+    </div>
+    <div data-lang="fr">
+      <h2 class="h-title">Contact</h2>
+      <p>Contactez-nous par WhatsApp : <strong>+34 649 505 918</strong></p>
+      <p>Exemple : "Je souhaite des infos pour un voyage en Suisse en février"</p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2025 Queso y Vino • Viajes a medida</p>
+</footer>
+
+<script src="toggle.js"></script>
+</body>
+</html>
